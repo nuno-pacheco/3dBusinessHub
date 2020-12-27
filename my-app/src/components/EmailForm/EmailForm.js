@@ -1,22 +1,22 @@
 import React, {Component} from "react";
 import emailjs from 'emailjs-com';
-import { Button } from '../Button/Button';
+import './EmailForm.css';
 
 class EmailForm extends Component {
     constructor(props) {
         super(props);
             this.state = {
-                projectCompanyName: "",
+                name: "",
                 email: "",
                 phone: "",
-                foundingTeam: "",
-                projectDuration: "",
-                threedHelp: "",
-                projectSpecial: "",
-                gameChanger: "",
+                founding: "",
+                duration: "",
+                help: "",
+                special: "",
+                changer: "",
                 goal: "",
-                elseAdd: "",
-                otherInfo: "",
+                else: "",
+                other: "",
             };
             this.handleChange = this.handleChange.bind(this);
             this.handleSubmit = this.handleSubmit.bind(this);
@@ -36,41 +36,46 @@ class EmailForm extends Component {
                 .then()
                 .catch();
             this.setState({
-                projectCompanyName: "",
+                name: "",
                 email: "",
                 phone: "",
-                foundingTeam: "",
-                projectDuration: "",
-                threedHelp: "",
-                projectSpecial: "",
-                gameChanger: "",
+                founding: "",
+                duration: "",
+                help: "",
+                special: "",
+                changer: "",
                 goal: "",
-                elseAdd: "",
-                otherInfo: "",
+                else: "",
+                other: "",
             });
         };
         render() {
             return(
-                <div>
+                <div className="container1">
                     <form
                         onSubmit={this.handleSubmit.bind(this)}
                         className="contact_form_class"
                     >
+                        <div className="contact-box">
+                            <div className="right">
+                            {/*<h2>Join Us!</h2>*/}
                         <div>
                             <label>Company / Project Name:</label>
                             <input
                                 type="text"
+                                className="field"
                                 id="projectName"
                                 name="projectName"
                                 placeholder="Enter Company / Project Name"
-                                value={this.state.projectCompanyName}
+                                value={this.state.name}
                                 onChange={this.handleChange.bind(this)}
                             ></input>
-                        </div>
+                        </div>                       
                         <div>
                             <label>Email:</label>
                             <input
                                 type="text"
+                                className="field"
                                 id="email"
                                 name="email"
                                 placeholder="Enter Email"
@@ -82,6 +87,7 @@ class EmailForm extends Component {
                             <label>Phone:</label>
                             <input
                                 type="text"
+                                className="field"
                                 id="phone"
                                 name="phone"
                                 placeholder="Enter Phone Number"
@@ -93,10 +99,11 @@ class EmailForm extends Component {
                             <label>Name of the Team Founders:</label>
                             <input
                                 type="text"
+                                className="field"
                                 id="founders"
                                 name="founders"
                                 placeholder="Enter the Team Founders"
-                                value={this.state.foundingTeam}
+                                value={this.state.founding}
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
@@ -104,10 +111,11 @@ class EmailForm extends Component {
                             <label>How long have you been working on your project?</label>
                             <input
                                 type="text"
+                                className="field"
                                 id="duration"
                                 name="duration"
                                 placeholder="Enter the answer"
-                                value={this.state.projectDuration}
+                                value={this.state.duration}
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
@@ -115,10 +123,11 @@ class EmailForm extends Component {
                             <label>What do you think 3D can help you with?</label>
                             <input
                                 type="text"
+                                className="field"
                                 id="help"
                                 name="help"
                                 placeholder="Enter the answer"
-                                value={this.state.threedHelp}
+                                value={this.state.help}
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
@@ -126,10 +135,11 @@ class EmailForm extends Component {
                             <label>What makes you (your project) special?</label>
                             <input
                                 type="text"
+                                className="field"
                                 id="special"
                                 name="special"
                                 placeholder="Enter the answer"
-                                value={this.state.projectSpecial}
+                                value={this.state.special}
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
@@ -137,10 +147,11 @@ class EmailForm extends Component {
                             <label>What’s a game-changer about your project?</label>
                             <input
                                 type="text"
+                                className="field"
                                 id="changer"
                                 name="changer"
                                 placeholder="Enter the answer"
-                                value={this.state.gameChanger}
+                                value={this.state.changer}
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
@@ -148,6 +159,7 @@ class EmailForm extends Component {
                             <label>What is your goal?</label>
                             <input
                                 type="text"
+                                className="field"
                                 id="goal"
                                 name="goal"
                                 placeholder="Enter the answer"
@@ -159,10 +171,11 @@ class EmailForm extends Component {
                             <label>Anything else you would like to tell us?</label>
                             <input
                                 type="text"
+                                className="field"
                                 id="else"
                                 name="else"
                                 placeholder="Enter the answer"
-                                value={this.state.elseAdd}
+                                value={this.state.else}
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
@@ -170,15 +183,19 @@ class EmailForm extends Component {
                             <label>Other information that would you like to add?</label>
                             <input
                                 type="text"
+                                className="field"
                                 id="otherInfo"
                                 name="otherInfo"
                                 placeholder="Enter the answer"
-                                value={this.state.otherInfo}
+                                value={this.state.other}
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
-                        <button type="submit">SUBMIT</button>
+                        <button type="submit" className="btn">SUBMIT</button>
+                        </div>
+                        </div>
                     </form>
+                    
                 </div>
             )
         }
