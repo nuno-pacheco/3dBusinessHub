@@ -6,10 +6,6 @@
     align-items: center;    
 }
 
-br{
-    color:black;
-}
-
 .jumbotron{
     background-color: rgb(232, 232, 232);
 }
@@ -73,4 +69,50 @@ br{
 .services-icon1 {
     color:  rgb(2,127,119);
     font-size: 94px;
+}
+
+@media screen and (max-width: 768px) {
+    .ourServices{
+        display: flex;
+        flex-direction: column
+    }
+
+    .services-title h1{
+        font-size: 5rem;
+    }
+
+    .services-title p{
+        font-size: 3rem;
+        text-decoration: underline  grey;
+
+    }
+
+    .cards-group{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-item{
+        width: 90vw;
+    }
+
+    .services-icon {
+        font-size: 64px;
+    }
+
+    .services-icon1 {
+        font-size: 64px;
+    }
+
+
+    .card-item1{
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+    }
+
+
 }

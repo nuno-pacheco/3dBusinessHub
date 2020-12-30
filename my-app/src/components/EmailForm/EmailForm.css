@@ -31,8 +31,6 @@
 
 .content-box{
     max-width: 850px;
-    display: grid;
-    grid-template-columns: repeat(2,1 fr);
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -93,10 +91,13 @@ label{
 }
 */
 @media screen and (max-width:880px){
-    .contact-box{
-        grid-template-columns: 1fr;
-    }
     .left{
         height: 200px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .field{
+        width: 80vw;
     }
 }

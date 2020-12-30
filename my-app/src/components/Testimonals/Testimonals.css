@@ -1,3 +1,27 @@
+.ourHistory{
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+}
+.history-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+
+.history-title h1{
+  font-family: 'Roboto';
+  font-size: 8rem;
+}
+
+.history-title p{
+  font-family: 'Roboto';
+  font-size: 6rem;
+}
+
 .carousel-root {
     width: 95vw !important;
     margin: auto !important;
@@ -122,3 +146,37 @@
       border-radius: 50%;
     }
   }
+
+  @media screen and (max-width: 768px) {
+    .ourHistory{
+      display: flex;
+      flex-direction: column
+  }
+    .history-title h1{
+      font-size: 5rem;
+    }
+    
+    .history-title p{
+      font-size: 3rem;
+      width: 85vw;
+      align-self: center;
+    }
+    .ufah {
+      width: 88%;
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 5%;
+      padding-right: 5%;
+      border: 1px solid #ddd;
+    }
+    .myCarousel{
+      height:70vh;
+    }
+    .myCarousel p {
+      margin-top: 2vh;
+
+
+    }
+
+
+}

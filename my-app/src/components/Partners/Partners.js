@@ -8,10 +8,10 @@ class Partners extends Component{
     render() {
         return (
             <>
-            <div className="ourServices">
+            <div className="ourCommunity">
                 <div className="jumbotron jumbotron-fluid">
                     <div className="container">
-                        <div className="services-title">
+                        <div className="community-title">
                             <h1 className="display-4">Our Community</h1>
                             <p className="lead">Partnerships & Clients</p>
                         </div>

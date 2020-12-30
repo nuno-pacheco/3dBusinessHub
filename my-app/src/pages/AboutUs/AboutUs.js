@@ -55,26 +55,26 @@ function AboutUs () {
                                     <ul className="list-inline events">
                                         <li className="list-inline-item event-list">
                                             <div className="px-4">
-                                                <div className="event-date bg-soft-success text-success">2018</div>
+                                                <div className="event-date bg-soft-success text-success year">2018</div>
                                                 <h5 className="font-size-16">Check In</h5>
                                                 <p className="text-muted">International project Educating 140 young undergraduates about business...</p>
                                             </div>
                                         </li>
                                         <li className="list-inline-item event-list">
                                             <div className="px-4">
-                                                <div className="event-date bg-soft-success text-success">2018</div>
+                                                <div className="event-date bg-soft-success text-success year">2018</div>
                                                 <h5 className="font-size-16">Nominated for Members Choice Awards</h5>
                                             </div>
                                         </li>
                                         <li className="list-inline-item event-list">
                                             <div className="px-4">
-                                                <div className="event-date bg-soft-success text-success">2019</div>
+                                                <div className="event-date bg-soft-success text-success year">2019</div>
                                                 <h5 className="font-size-16">Members Choice Awards</h5>
                                             </div>
                                         </li>
                                         <li className="list-inline-item event-list">
                                             <div className="px-4">
-                                                <div className="event-date bg-soft-success text-success">2020</div>
+                                                <div className="event-date bg-soft-success text-success year">2020</div>
                                                 <h5 className="font-size-16">Most Innovative Business</h5>
                                             </div>
                                         </li>
@@ -86,7 +86,6 @@ function AboutUs () {
                 </div>
             </div>
         </div>
-        <Footer />
         </div>
     )
 }

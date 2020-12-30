@@ -78,28 +78,38 @@
   .menu-icon {
     display: none;
   }
-  
+
   @media screen and (max-width: 960px) {
     .NavbarItems {
       position: relative;
+    }
+
+    .navbar-container {
+      height: 60px;
+      max-width: 100vw;
     }
   
     .nav-menu {
       display: flex;
       flex-direction: column;
-      width: 40%;
-      height: 30vh;
+      width: 50%;
+      height: 40vh;
       position: absolute;
       top: 80px;
       left: -100%;
       opacity: 0.9;
       transition: all 0.5s ease;
     }
+
+    .navbar-logo img{
+      width: 12rem;
+      margin-left: -4vw;
+  }
   
     .nav-menu.active {
       background:rgb(232, 232, 232);
       left: 0;
-      margin-left: 60%;
+      margin-left: 50%;
       opacity: 0.87;
       transition: all 0.5s ease;
       z-index: 1;
@@ -131,7 +141,7 @@
       top: 0;
       right: 0;
       transform: translate(-100%, 60%);
-      font-size: 1.8rem;
+      font-size: 2.8rem;
       cursor: pointer;
     }
   

@@ -65,16 +65,60 @@
     width: 50%;
 }
 .about-text p{
-    font-size: 1.3rem;
-    line-height: 1.6 ;
+    font-size: 1.7rem;
+    line-height: 1.8 ;
 }
+
+@media screen and (max-width: 768px) {
+    .about-container{
+      height: 50vh;
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+    }
+
+    .about-container > h1 {
+      width: 100w;
+      align-self: center;
+      font-size: 35px;
+      margin-top: 10px;
+      align-content: center;
+    }
+  
+    .about-container > p {
+      width: 88vw;
+      font-size: 27px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+
+    .about-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-text{
+        width: 86%;
+    }
+  }
 /* TIMELINE*/
 .timeline{
     width: 95%;
     margin-left: 2.5%;
+    padding-bottom: 3vh;
 }
 .card-title{
     padding-top: 4vh;
+    padding-bottom: 3vh;
     color: #565656;
     font-size: 4rem;
     text-align: center;
@@ -85,6 +129,7 @@
 .hori-timeline .events {
     border-top: 3px solid #c8c8c8;
 }
+
 @media (min-width: 1140px) {
     .list-inline{
         display: flex;

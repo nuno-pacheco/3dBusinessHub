@@ -1,3 +1,24 @@
+.ourCommunity{
+  width: 100%;
+  background-color: rgb(232, 232, 232);
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+}
+.community-title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;  
+}
+.community-title h1{
+  font-family: 'Roboto';
+  font-size: 8rem;
+}
+.community-title p{
+  font-family: 'Roboto';
+  font-size: 6rem;
+}
 .carousel-root {
     width: 95vw !important;
     margin: auto !important;
@@ -81,6 +102,23 @@
   
     .carousel .slide img {
       width: 24% !important;
-      border-radius: 50%;
+      border-radius: 0%;
     }
+  }
+
+  @media screen and (max-width: 768px) {
+    .ourCommunity{
+      display: flex;
+      flex-direction: column
+    }
+    .community-title h1{
+      text-align: center;
+      font-size: 5rem;
+  }
+
+    .community-title p{
+      font-size: 3rem;
+      text-decoration: underline  grey;
+
+  }
   }

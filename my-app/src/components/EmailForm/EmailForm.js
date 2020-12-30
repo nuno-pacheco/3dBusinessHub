@@ -59,7 +59,7 @@ class EmailForm extends Component {
                         <div className="contact-box">
                             <div className="right">
                             {/*<h2>Join Us!</h2>*/}
-                        <div>
+                        <div class-name="form-line">
                             <label>Company / Project Name:</label>
                             <input
                                 type="text"
