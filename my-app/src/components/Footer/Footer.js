@@ -95,30 +95,30 @@ function Footer() {
             >
               <i className='fab fa-twitter' />
             </Link>*/}
-            <Link
+            <a
               className='social-icon-link facebook'
-              to='https://www.facebook.com/3D.Lisbon'
+              href='https://www.facebook.com/3D.Lisbon'
               target='_blank'
               aria-label='Facebook'
             >
               <i className='fab fa-facebook-f' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link instagram'
-              to='https://www.instagram.com/3d_business_hub'
+              href='https://www.instagram.com/3d_business_hub'
               target='_blank'
               aria-label='Instagram'
             >
               <i className='fab fa-instagram' />
-            </Link>
-            <Link
+            </a>
+            <a
               className='social-icon-link twitter'
-              to='https://www.linkedin.com/company/3d-business-hub'
+              href='https://www.linkedin.com/company/3d-business-hub'
               target='_blank'
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
-            </Link>
+            </a>
           </div>
         </div>
       </section>
