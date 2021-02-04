@@ -119,6 +119,14 @@ function Footer() {
             >
               <i className='fab fa-linkedin' />
             </a>
+            <a
+              className='social-icon-link'
+              href='https://www.google.com/maps/place/3D+Business+Hub/@38.7217114,-9.1529124,17z/data=!4m5!3m4!1s0xd19337a6add5855:0x5d81de61e85fd473!8m2!3d38.72159!4d-9.1525154'
+              rel="noopener noreferrer"
+              aria-label='LinkedIn'
+            >
+              <i class="fas fa-map-marker-alt"></i>
+            </a>
           </div>
         </div>
       </section>
