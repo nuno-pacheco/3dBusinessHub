@@ -1,3 +1,6 @@
+.about-super-container{
+    background-color: rgb(232,232,232);
+}
 .about-container {
     background: linear-gradient(rgba(2,127,119,0.5),rgba(2,127,119,0.5)), url("https://res.cloudinary.com/dylut4r4t/image/upload/v1602514330/3dBusinessHub/campaign-creators-gMsnXqILjp4-unsplash_dlapth.jpg") center center/cover no-repeat; 
     height: 50vh;
@@ -19,7 +22,7 @@
     margin-top: 8px;
     text-align: center;
     color: #fff;
-    font-size: 32px;
+    font-size: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
       'Lucida Sans', Arial, sans-serif;
 }
@@ -30,6 +33,7 @@
     margin: 6px;
 }
 .about-content{
+    background-color: rgb(232,232,232);
     width: 100%;
     padding-top: 8vh;
     padding-bottom: 6vh;
@@ -112,9 +116,13 @@
   }
 /* TIMELINE*/
 .timeline{
+    background-color: rgb(232,232,232);
     width: 95%;
     margin-left: 2.5%;
     padding-bottom: 3vh;
+}
+.container-fluid{
+    background-color: rgb(232,232,232);
 }
 .card-title{
     padding-top: 4vh;
@@ -161,6 +169,9 @@
     padding: 2px 4px;
 }
 @media (min-width: 1140px) {
+    .timeline{
+        padding-bottom: 2vh;
+    }
     .hori-timeline .events .event-list {
         display: inline-block;
         width: 24%;

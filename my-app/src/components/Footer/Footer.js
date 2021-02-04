@@ -98,7 +98,7 @@ function Footer() {
             <a
               className='social-icon-link facebook'
               href='https://www.facebook.com/3D.Lisbon'
-              target='_blank'
+              rel="noopener noreferrer"
               aria-label='Facebook'
             >
               <i className='fab fa-facebook-f' />
@@ -106,7 +106,7 @@ function Footer() {
             <a
               className='social-icon-link instagram'
               href='https://www.instagram.com/3d_business_hub'
-              target='_blank'
+              rel="noopener noreferrer"
               aria-label='Instagram'
             >
               <i className='fab fa-instagram' />
@@ -114,7 +114,7 @@ function Footer() {
             <a
               className='social-icon-link twitter'
               href='https://www.linkedin.com/company/3d-business-hub'
-              target='_blank'
+              rel="noopener noreferrer"
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />

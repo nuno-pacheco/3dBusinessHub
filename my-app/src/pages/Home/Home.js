@@ -6,14 +6,14 @@ import Partners from '../../components/Partners/Partners';
 
 function Home () {
     return(
-        <>
+        <div className="App">
             <HeroSection />
             <OurServices />
             <div>
             <br/>    
             </div>
             <Partners/>
-        </>
+        </div>
     )
 }
 

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
-import Testimonials from '../Testimonals/Testimonals';
 import "./Partners.css";
 
 class Partners extends Component{
@@ -58,7 +57,7 @@ class Partners extends Component{
                 <div>
                   <br/>
                 </div>
-                <Testimonials/>
+                {/*<Testimonials/>*/} 
                 <div>
                   <br/>
                 </div>

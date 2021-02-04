@@ -28,12 +28,21 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-          <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1604935076/3dBusinessHub/New%20logo/logo_text1_n79hda.png" alt="3dLogo"/>
+          <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1604935078/3dBusinessHub/New%20logo/logo_text2_v1qxbx.png" alt="3dLogo"/>
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+          <li className='nav-item'>
+              <Link
+                to='/about'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                <strong>ABOUT US</strong>
+              </Link>
+            </li>
             <li className='nav-item'>
               <Link 
                 to='/services' 
@@ -41,15 +50,6 @@ function Navbar() {
                 onClick={closeMobileMenu}
               >
               <strong>SERVICES</strong>
-              </Link>
-            </li>
-            <li className='nav-item'>
-              <Link
-                to='/partners'
-                className='nav-links'
-                onClick={closeMobileMenu}
-              >
-                <strong>COMMUNITY</strong>
               </Link>
             </li>
             <li className='nav-item'>

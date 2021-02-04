@@ -34,6 +34,28 @@
     font-size: 32px;
     font-family: 'Roboto';
   }
+
+  .arrow-pointing{
+    color: #fff;
+    font-size: 34px;
+    margin-top: 4vh;
+    text-decoration: none;
+  }
+
+  .blink {
+    animation: blink 3s steps(5, start) infinite;
+    -webkit-animation: blink 1s steps(5, start) infinite;
+  }
+  @keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink {
+    to {
+      visibility: hidden;
+    }
+  }
   
   .hero-btns {
     margin-top: 32px;

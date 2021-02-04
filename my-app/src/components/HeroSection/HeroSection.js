@@ -1,7 +1,5 @@
 import React from 'react';
 import '../../App.css';
-import { Button } from '../Button/Button';
-import { Link } from 'react-router-dom';
 import './HeroSection.css';
 
 function HeroSection() {
@@ -10,8 +8,15 @@ function HeroSection() {
       {/*<video src='/videos/video-1.mp4' autoPlay loop muted />*/}
       <h1>INSPIRING INNOVATION</h1>
       <p>3D is a Business Hub focused in promoting innovation <br/>and growth in startups and SME's.</p>
+      <a
+        className='arrow-pointing'
+        href
+      >
+       <i className="far fa-arrow-alt-circle-down blink"></i>
+      </a>
+      
       <div className='hero-btns'>
-        <Button
+        {/*<Button
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
@@ -19,7 +24,7 @@ function HeroSection() {
         <Link to="/about" className='nav-about'>
           ABOUT US
         </Link>
-        </Button>
+        </Button>*/}
         {/*<Button
           className='btns'
           buttonStyle='btn--primary'
