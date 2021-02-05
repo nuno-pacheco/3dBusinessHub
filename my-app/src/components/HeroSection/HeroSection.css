@@ -42,6 +42,12 @@
     text-decoration: none;
   }
 
+  .arrow-pointing:hover {
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.2s ease-out;
+  }
+
   .blink {
     animation: blink 3s steps(5, start) infinite;
     -webkit-animation: blink 1s steps(5, start) infinite;

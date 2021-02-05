@@ -1,8 +1,11 @@
 import React from 'react';
+import Navbar1 from '../../components/Navbar/Navbar1';
 import './AboutUs.css';
 
 function AboutUs () {
     return(
+        <>
+        <Navbar1/>
         <div className='about-super-container'>
             <div className='about-container'>            
                 <p>Idealists at heart and doers by nature!</p>
@@ -82,6 +85,7 @@ function AboutUs () {
                 </div>
             </div>
         </div>
+        </>
     )
 }
 

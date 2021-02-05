@@ -1,10 +1,8 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-/*import { NavHashLink as Link } from 'react-router-hash-link';*/
-import { Link as ScrollLink  , animateScroll as scroll } from "react-scroll";
 import './Navbar.css';
 
-function Navbar() {
+function Navbar1() {
   const [click, setClick] = useState(false);
   /*const [button, setButton] = useState(true);*/
 
@@ -46,20 +44,6 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <ScrollLink
-                activeClass="active"
-                to="section1"
-                spy="true"
-                smoth={true}
-                offset={-70}
-                duration={1000} 
-                className='nav-links' 
-                onClick={closeMobileMenu}
-              >
-              <strong>SERVICES</strong>
-              </ScrollLink>
-            </li>
-            <li className='nav-item'>
               <Link
                 to='/form'
                 className='nav-links'
@@ -86,6 +70,6 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbar1;
                              
                    

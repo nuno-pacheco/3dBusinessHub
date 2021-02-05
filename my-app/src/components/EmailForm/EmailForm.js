@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import emailjs from 'emailjs-com';
+import Navbar1 from '../Navbar/Navbar1';
 import './EmailForm.css';
 
 class EmailForm extends Component {
@@ -51,6 +52,8 @@ class EmailForm extends Component {
         };
         render() {
             return(
+                <>
+                <Navbar1/>
                 <div className="container1">
                     <form
                         onSubmit={this.handleSubmit.bind(this)}
@@ -197,6 +200,7 @@ class EmailForm extends Component {
                     </form>
                     
                 </div>
+                </>
             )
         }
     }

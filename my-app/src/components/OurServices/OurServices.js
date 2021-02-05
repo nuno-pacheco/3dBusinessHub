@@ -4,7 +4,7 @@ import './OurServices.css';
 function OurServices(){
     return(
         <>
-        <div className="ourServices">
+        <div className="ourServices" id="section1">
             <div className="jumbotron jumbotron-fluid">
                 <div className="container">
                     <div className="services-title">
