@@ -48,14 +48,15 @@
   }
   
   .nav-item strong{
-    font-size: 2.8rem;
+    margin-top: 6vh;
+    font-size: 2.2rem;
     font-family: 'Roboto', sans-serif;
   }
   
   .nav-links {
     text-decoration: none;
     color: rgb(2,127,119);
-    font-size: 2rem;
+    font-size: 2.1rem;
     display: flex;
     align-items: center;
     padding: 0.5rem 1rem;
