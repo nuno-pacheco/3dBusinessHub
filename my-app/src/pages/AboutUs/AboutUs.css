@@ -13,11 +13,7 @@
     box-shadow: inset 0 0 0 1000px rgba(2,127,119,0.5);
     object-fit: contain;
 }
-.about-container > h1 {
-    color: #fff;
-    font-size: 100px;
-    margin-top: 10px;
-}
+
 .about-container > p {
     margin-top: 8px;
     text-align: center;
@@ -47,15 +43,48 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-
 }
+.about-content{
+    display: flex;
+    flex-direction: column;
+}
+.amazingTeam{
+    width: 80%;
+    margin-top: 2vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.team-title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.team-title h1{
+    font-family: 'Roboto';
+    font-size: 8rem;
+}
+.team-title p{
+    font-family: 'Roboto';
+    font-size: 6rem;
+}
+
 .about-content img{
     width: 70%;
     border-radius: 50%;
 }
 .img-name{
     color:  #565656;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
+    margin-top: 1vh;
+}
+.name-link{
+    text-decoration-line: none;
+}
+.img-name:hover{
+    color: rgb(2,127,119);
+    text-decoration-line: none;
 
 }
 .img-role{
@@ -65,8 +94,8 @@
 }
 .about-text{
     color:  #565656;
-    margin-left: 6%;
-    width: 50%;
+    margin-top: 2vh;
+    width: 80%;
 }
 .about-text p{
     font-size: 1.7rem;
@@ -113,7 +142,34 @@
     .about-text{
         width: 86%;
     }
-  }
+
+    .team-title h1{
+        font-size: 5rem;
+    }
+
+    .team-title p{
+       
+        text-align: center;
+        font-size: 2.5rem;
+        text-decoration: underline  grey;
+
+    }
+
+    .amazingTeam{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about-content img{
+        width: 50%;
+    }
+
+    .about-image{
+        margin-top: 2vh;
+    }
+}
+
+    
 /* TIMELINE*/
 .timeline{
     background-color: rgb(232,232,232);

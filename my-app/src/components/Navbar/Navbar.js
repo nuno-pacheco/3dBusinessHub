@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 /*import { NavHashLink as Link } from 'react-router-hash-link';*/
-import { Link as ScrollLink  , animateScroll as scroll } from "react-scroll";
+import { Link as ScrollLink} from "react-scroll";
 import './Navbar.css';
 
 function Navbar() {

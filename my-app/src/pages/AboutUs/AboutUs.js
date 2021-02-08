@@ -22,14 +22,77 @@ function AboutUs () {
                 </div>
             </div>
             <div className='about-content'>
-                <div className='about-image'>
-                    <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1607984808/3dBusinessHub/1600253907378_xdw88f.jpg" alt="about-pic"/>
-                    <p className="img-name">
-                        <strong>Catarina Nunes</strong>
-                    </p>
-                    <p className="img-role">
-                        CEO & Founder @3D - Business Hub
-                    </p>               
+                <div className="team-title">
+                    <h1 className="display-4">The Team</h1>
+                    <p className="lead">Amazing people to achieve amazing things</p>
+                </div>
+                <div className="amazingTeam">
+                        <div className='about-image'>
+                            <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1607984808/3dBusinessHub/1600253907378_xdw88f.jpg" alt="about-pic"/>
+                            <i>
+                            <a
+                                className="name-link" 
+                                href="https://www.linkedin.com/in/catarina-nunes-b04709162/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <p className="img-name">                              
+                                    <strong>Catarina Nunes</strong>
+                                </p>
+                            </a>
+                            </i>
+                            <p className="img-role">
+                                CEO & Founder 3D - Business Hub
+                            </p>               
+                        </div>
+                        <div className='about-image'>
+                            <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1612782292/3dBusinessHub/1516305536078_deqzyl.jpg" alt="about-pic"/>
+                            <a
+                                className="name-link" 
+                                href="https://www.linkedin.com/in/toonman/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <p className="img-name">
+                                    <strong>Pedro Alves</strong>
+                                </p>
+                            </a>
+                            <p className="img-role">
+                                Business Developer
+                            </p>               
+                        </div>
+                        <div className='about-image'>
+                            <img src="https://res.cloudinary.com/dylut4r4t/image/upload/c_scale,w_200/v1611913718/portfolio/2016.09.16_Deloitte_Studio_126_e1x47s.jpg" alt="about-pic"/>
+                            <a
+                                className="name-link" 
+                                href="https://www.linkedin.com/in/nunpacheco/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <p className="img-name">
+                                    <strong>Nuno Pacheco</strong>
+                                </p>
+                            </a>
+                            <p className="img-role">
+                                Business Developer
+                            </p>               
+                        </div>
+                        <div className='about-image'>
+                            <img src="https://res.cloudinary.com/dylut4r4t/image/upload/c_scale,w_200/v1612782292/3dBusinessHub/IMG_0785_xmvkn1.jpg" alt="about-pic"/>
+                            <a
+                                className="name-link" 
+                                href="https://www.linkedin.com/in/m%C3%B3nica-ferreira-700a61157/"
+                                target="_blank"
+                                rel="noreferrer"
+                            >
+                                <p className="img-name">
+                                    <strong>Mónica Ferreira</strong>
+                                </p>
+                            </a>
+                            <p className="img-role">
+                                Project Manager
+                            </p>               
+                        </div>
                 </div>
                 <div className='about-text'>
                     <p>

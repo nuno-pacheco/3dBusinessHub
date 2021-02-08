@@ -61,7 +61,7 @@ class EmailForm extends Component {
                     >
                         <div className="contact-box">
                             <div className="right">
-                            {/*<h2>Join Us!</h2>*/}
+                            <h2>Tell us about your project:</h2>
                         <div className="form-line">
                             <label>Company / Project Name:</label>
                             <input
@@ -74,7 +74,7 @@ class EmailForm extends Component {
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>                       
-                        <div>
+                        <div className="form-line">
                             <label>Email:</label>
                             <input
                                 type="text"
@@ -86,7 +86,7 @@ class EmailForm extends Component {
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
-                        <div>
+                        <div className="form-line">
                             <label>Phone:</label>
                             <input
                                 type="text"
@@ -98,7 +98,7 @@ class EmailForm extends Component {
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
-                        <div>
+                        <div className="form-line">
                             <label>Name of the Team Founders:</label>
                             <input
                                 type="text"
@@ -110,7 +110,7 @@ class EmailForm extends Component {
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
-                        <div>
+                        <div className="form-line">
                             <label>How long have you been working on your project?</label>
                             <input
                                 type="text"
@@ -122,7 +122,7 @@ class EmailForm extends Component {
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
-                        <div>
+                        <div className="form-line">
                             <label>What do you think 3D can help you with?</label>
                             <input
                                 type="text"
@@ -134,7 +134,7 @@ class EmailForm extends Component {
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
-                        <div>
+                        <div className="form-line">
                             <label>What makes you (your project) special?</label>
                             <input
                                 type="text"
@@ -146,7 +146,7 @@ class EmailForm extends Component {
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
-                        <div>
+                        <div className="form-line">
                             <label>What’s a game-changer about your project?</label>
                             <input
                                 type="text"
@@ -158,7 +158,7 @@ class EmailForm extends Component {
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
-                        <div>
+                        <div className="form-line">
                             <label>What is your goal?</label>
                             <input
                                 type="text"
@@ -170,7 +170,7 @@ class EmailForm extends Component {
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
-                        <div>
+                        <div className="form-line">
                             <label>Anything else you would like to tell us?</label>
                             <input
                                 type="text"
@@ -182,7 +182,7 @@ class EmailForm extends Component {
                                 onChange={this.handleChange.bind(this)}
                             ></input>
                         </div>
-                        <div>
+                        <div className="form-line">
                             <label>Other information that would you like to add?</label>
                             <input
                                 type="text"
