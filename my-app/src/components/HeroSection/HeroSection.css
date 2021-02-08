@@ -37,7 +37,7 @@
 
   .arrow-pointing{
     color: #fff;
-    position:absolute;
+    position: absolute;
     font-size: 34px;
     margin-top: 80vh;
     text-decoration: none;
@@ -119,6 +119,7 @@
     }
 
     .arrow-pointing{
-      margin-top: 40vh;
+      position: relative;
+      margin-top: 1vh;
     }
   }
