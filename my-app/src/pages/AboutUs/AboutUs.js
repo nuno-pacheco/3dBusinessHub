@@ -29,7 +29,6 @@ function AboutUs () {
                 <div className="amazingTeam">
                         <div className='about-image'>
                             <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1607984808/3dBusinessHub/1600253907378_xdw88f.jpg" alt="about-pic"/>
-                            <i>
                             <a
                                 className="name-link" 
                                 href="https://www.linkedin.com/in/catarina-nunes-b04709162/"
@@ -40,7 +39,6 @@ function AboutUs () {
                                     <strong>Catarina Nunes</strong>
                                 </p>
                             </a>
-                            </i>
                             <p className="img-role">
                                 CEO & Founder 3D - Business Hub
                             </p>               

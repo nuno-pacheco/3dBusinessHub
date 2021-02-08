@@ -60,7 +60,7 @@ function OurServices(){
             </div>
             
         </div>
-        <div>
+        <div className="ourServices1">
             <div className="jumbotron jumbotron-fluid">
             <div className="services-for-investors">
                     <div className="container">

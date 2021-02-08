@@ -96,6 +96,8 @@
     color:  #565656;
     margin-top: 2vh;
     width: 80%;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .about-text p{
     font-size: 1.7rem;
@@ -148,7 +150,7 @@
     }
 
     .team-title p{
-       
+        width: 90vw;
         text-align: center;
         font-size: 2.5rem;
         text-decoration: underline  grey;

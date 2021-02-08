@@ -5,6 +5,9 @@
     justify-content: center;
     align-items: center;    
 }
+.ourServices1{
+    margin-top: -8vh;    
+}
 
 .jumbotron{
     background-color: rgb(232, 232, 232);
@@ -12,8 +15,8 @@
 
 .services-for-investors{
     background-color: rgb(221, 221, 221);
-    padding-top: 3vh;
-    padding-bottom: 3vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
     width: 100%;
 }
 
@@ -106,6 +109,9 @@
 
     .card-item{
         width: 90vw;
+    }
+    .card-item h5{
+        font-size: 3rem;
     }
 
     .services-icon {

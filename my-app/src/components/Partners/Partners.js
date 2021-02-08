@@ -9,7 +9,7 @@ class Partners extends Component{
             <>
             <div className="ourCommunity">
                 <div className="jumbotron jumbotron-fluid">
-                    <div className="container">
+                    <div className="container-title">
                         <div className="community-title">
                             <h1 className="display-4">Our Community</h1>
                             <p className="lead">Partnerships & Clients</p>

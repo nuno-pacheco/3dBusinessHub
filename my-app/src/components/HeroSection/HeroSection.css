@@ -100,13 +100,13 @@
       width: 100w;
       align-self: center;
       font-size: 30px;
-      margin-top: 10px;
+      margin-top: 60px;
       align-content: center;
     }
   
     .hero-container > p {
       width: 88vw;
-      font-size: 17px;
+      font-size: 20px;
     }
   
     .btn-mobile {
