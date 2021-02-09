@@ -1,3 +1,4 @@
+
 .ourCommunity{
   width: 100%;
   background-color: rgb(232, 232, 232);
@@ -15,11 +16,9 @@
   align-items: center;  
 }
 .community-title h1{
-  font-family: 'Roboto';
   font-size: 6rem;
 }
 .community-title p{
-  font-family: 'Roboto';
   font-size: 5rem;
 }
 .carousel-root {

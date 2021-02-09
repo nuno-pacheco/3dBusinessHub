@@ -1,8 +1,12 @@
+
 .about-super-container{
     background-color: rgb(232,232,232);
 }
 .about-container {
     background: linear-gradient(rgba(2,127,119,0.5),rgba(2,127,119,0.5)), url("https://res.cloudinary.com/dylut4r4t/image/upload/v1602514330/3dBusinessHub/campaign-creators-gMsnXqILjp4-unsplash_dlapth.jpg") center center/cover no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     height: 50vh;
     width: 100%;
     margin-top: -4vh;
@@ -19,8 +23,6 @@
     text-align: center;
     color: #fff;
     font-size: 60px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-      'Lucida Sans', Arial, sans-serif;
 }
 .about-btns {
     margin-top: 32px;
@@ -62,11 +64,9 @@
     align-items: center;  
 }
 .team-title h1{
-    font-family: 'Roboto';
     font-size: 6rem;
 }
 .team-title p{
-    font-family: 'Roboto';
     font-size: 5rem;
 }
 
@@ -104,7 +104,26 @@
     line-height: 1.8 ;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
+    .about-container > p {
+        margin-top: 8px;
+        text-align: center;
+        color: #fff;
+        font-size: 35px;
+    }
+    .team-title h1{
+        font-size: 5rem;
+    }
+    .team-title p{
+        font-size: 3.5rem;
+    }
+    .about-content img{
+        width: 60%;
+    }
+
+}
+
+@media screen and (max-width: 760px) {
     .about-container{
       height: 50vh;
       width: 100vw;
@@ -163,7 +182,7 @@
     }
 
     .about-content img{
-        width: 50%;
+        width: 40%;
     }
 
     .about-image{

@@ -78,7 +78,7 @@ function Footer() {
             <img src="https://res.cloudinary.com/dylut4r4t/image/upload/v1604924996/3dBusinessHub/New%20logo/logo_2_mfo1oi.png" alt="3dLogo"/>
             </Link>
           </div>
-          <small className='website-rights'>3D BUSINESS HUB © 2020</small>
+          <small className='website-rights'>3D BUSINESS HUB © 2021</small>
           <div className='social-icons'>
             {/*<Link
               className='social-icon-link youtube'

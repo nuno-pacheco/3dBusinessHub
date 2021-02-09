@@ -28,24 +28,21 @@
 }
 
 .services-title h1{
-    font-family: 'Roboto';
     font-size: 6rem;
 }
 
 .services-title p{
-    font-family: 'Roboto';
     font-size: 5rem;
 }
 
 .cards-group{
     width: 90vw;
-    margin-left: 5vw;
     display: flex;
     flex-direction: row;
 }
 .cards-group1{
     width: 90vw;
-    margin-left: 5vw;
+    margin-left: 5.95vw;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -69,9 +66,13 @@
     padding-left: 2vw;
     padding-right: 2vw;
 }
+.card-text-block{
+    text-align: left;
+    
+}
 .card-item p{
     font-size: 20px;
-    line-height: 3.5vh;
+    line-height: 4vh;
 }
 .card-body1{
     margin-left: 6vw;
@@ -85,7 +86,51 @@
     font-size: 94px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 960px) {
+    .cards-group{
+        width: 80vw;
+        margin-left: 10vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 70vw;
+        padding-top: 4vh;
+        padding-left: 0vw;
+        padding-right: 0vw;
+    }
+    .card-text-block{
+        text-align: center;
+        
+    }
+    .card-item p{
+        font-size: 20px;
+        line-height: 3.5vh;
+    }
+    .card-body1{
+        margin-left: 0vw;
+    }
+    .services-icon1 {
+        font-size: 64px;
+        padding-bottom: 2vh;
+    }
+    .card-item1{
+        width: 70vw;
+        margin-top: 2vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 0vw;
+        padding-right: 0vw;
+
+    }    
+}
+
+@media screen and (max-width: 760px) {
     .ourServices{
         display: flex;
         flex-direction: column
@@ -105,6 +150,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-left: 5vw;
     }
 
     .card-item{
@@ -117,12 +163,12 @@
     .services-icon {
         font-size: 64px;
     }
-
+    .cards-group1{
+        margin-left: 5vw;
+    }
     .services-icon1 {
         font-size: 64px;
     }
-
-
     .card-item1{
         width: 90vw;
         display: flex;

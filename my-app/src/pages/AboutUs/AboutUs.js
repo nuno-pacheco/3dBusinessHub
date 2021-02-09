@@ -40,7 +40,7 @@ function AboutUs () {
                                 </p>
                             </a>
                             <p className="img-role">
-                                CEO & Founder 3D - Business Hub
+                                CEO & Founder
                             </p>               
                         </div>
                         <div className='about-image'>
