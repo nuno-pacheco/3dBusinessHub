@@ -98,7 +98,8 @@ function Footer() {
             <a
               className='social-icon-link facebook'
               href='https://www.facebook.com/3D.Lisbon'
-              rel="noopener noreferrer"
+              target="_blank"
+              rel="noreferrer"
               aria-label='Facebook'
             >
               <i className='fab fa-facebook-f' />
@@ -106,7 +107,8 @@ function Footer() {
             <a
               className='social-icon-link instagram'
               href='https://www.instagram.com/3d_business_hub'
-              rel="noopener noreferrer"
+              target="_blank"
+              rel="noreferrer"
               aria-label='Instagram'
             >
               <i className='fab fa-instagram' />
@@ -114,7 +116,8 @@ function Footer() {
             <a
               className='social-icon-link twitter'
               href='https://www.linkedin.com/company/3d-business-hub'
-              rel="noopener noreferrer"
+              target="_blank"
+              rel="noreferrer"
               aria-label='LinkedIn'
             >
               <i className='fab fa-linkedin' />
@@ -122,7 +125,8 @@ function Footer() {
             <a
               className='social-icon-link'
               href='https://www.google.com/maps/place/3D+Business+Hub/@38.7217114,-9.1529124,17z/data=!4m5!3m4!1s0xd19337a6add5855:0x5d81de61e85fd473!8m2!3d38.72159!4d-9.1525154'
-              rel="noopener noreferrer"
+              target="_blank"
+              rel="noreferrer"
               aria-label='LinkedIn'
             >
               <i class="fas fa-map-marker-alt"></i>
