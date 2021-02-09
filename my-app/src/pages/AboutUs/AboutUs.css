@@ -125,6 +125,10 @@
 
 @media screen and (max-width: 760px) {
     .about-container{
+      background-attachment: none;
+      background-position: none;
+      background-repeat: none;
+      background-size: none;  
       height: 50vh;
       width: 100vw;
       display: flex;
