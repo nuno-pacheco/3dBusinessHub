@@ -124,7 +124,7 @@
 @media screen and (max-width: 760px) {
     .about-container{
         background: linear-gradient(rgba(2,127,119,0.5),rgba(2,127,119,0.5)), url("https://res.cloudinary.com/dylut4r4t/image/upload/v1602514330/3dBusinessHub/campaign-creators-gMsnXqILjp4-unsplash_dlapth.jpg") center center/cover no-repeat; 
-        background-attachment: fixed;
+        background-attachment: none;
         background-size: cover;
         height: 50vh;
         width: 100%;

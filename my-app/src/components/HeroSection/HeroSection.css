@@ -98,8 +98,8 @@
   @media screen and (max-width: 760px) {
     .hero-container{
       background: linear-gradient(rgba(2,127,119,0.5),rgba(2,127,119,0.5)), url("https://res.cloudinary.com/dylut4r4t/image/upload/v1601941943/3dBusinessHub/RHC_0054_fjetdq.jpg"); 
-      background-attachment: fixed;
-      background-position: center -21vh;
+      background-attachment: none;
+      background-position: none;
       background-size: cover;
       height: 50vh;
       width: 100%;
