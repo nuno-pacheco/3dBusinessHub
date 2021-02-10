@@ -109,11 +109,7 @@
       font-size: 35px;
     }
     .arrow-pointing{
-      color: #fff;
-      position: absolute;
-      font-size: 34px;
-      margin-top: 40vh;
-      text-decoration: none;
+      display:none;
     }
   }
   
@@ -138,13 +134,13 @@
       width: 100w;
       align-self: center;
       font-size: 30px;
-      margin-top: 60px;
+      margin-top: 40px;
       align-content: center;
     }
   
     .hero-container > p {
       width: 88vw;
-      font-size: 20px;
+      font-size: 18px;
     }
   
     .btn-mobile {
@@ -157,7 +153,6 @@
     }
 
     .arrow-pointing{
-      position: relative;
-      margin-top: 1vh;
+      display: none;
     }
   }
