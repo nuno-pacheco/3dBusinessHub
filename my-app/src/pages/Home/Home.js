@@ -1,20 +1,25 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import '../../App.css';
 import Navbar from '../../components/Navbar/Navbar';
 import HeroSection from '../../components/HeroSection/HeroSection';
-import OurServices from '../../components/OurServices/OurServices';
-import Partners from '../../components/Partners/Partners';
+/*import OurServices from '../../components/OurServices/OurServices';*/
+const Partners = React.lazy(() => import('../../components/Partners/Partners'));
+const OurServices = React.lazy(() => import('../../components/OurServices/OurServices'))
 
 function Home () {
     return(
         <div className="App">
             <Navbar/>
             <HeroSection/>
-            <OurServices/>
+            <Suspense fallback="Loading...">
+                <OurServices/>
+            </Suspense>
             <div>
             <br/>    
             </div>
-            <Partners/>
+            <Suspense fallback="Loading...">
+                <Partners/>
+            </Suspense>
         </div>
     )
 }

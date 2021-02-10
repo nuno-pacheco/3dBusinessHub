@@ -42,7 +42,8 @@
 }
 .cards-group1{
     width: 90vw;
-    margin-left: 5.95vw;
+    margin-left: 4vw;
+    margin-top: -2vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -59,12 +60,10 @@
 }
 .card-item1{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     width: 60vw;
     padding-top: 4vh;
-    padding-left: 2vw;
-    padding-right: 2vw;
 }
 .card-text-block{
     text-align: left;
@@ -75,7 +74,9 @@
     line-height: 4vh;
 }
 .card-body1{
-    margin-left: 6vw;
+    margin-left: 2.7vw;
+    margin-top: 2vh;
+    
 }
 .services-icon {
     color:  rgb(2,127,119);
